@@ -1,7 +1,18 @@
-"__pycache__/" 
-"*.pyc" 
-"venv/" 
-".idea/" 
-"data/" 
-"output/" 
-"llmtools/third-party/" 
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+# Virtualenv
+venv/
+.env
+
+# VSCode / PyCharm
+.idea/
+.vscode/
+
+# Large files
+D:/huggingface_models/
+D:/faiss_index/
+llmtools/output/
