@@ -1,0 +1,19 @@
+version: "3.8"
+services:
+  llmtools-finetune:
+    build: .
+    container_name: llmtools-7b2bit
+    volumes:
+      - .:/app
+      - /dev/shm:/dev/shm
+      - D:/huggingface_models:/app/models  # 確保 Docker 讀取 D 槽 Hugging Face 模型
+    runtime: nvidia
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu]
+    stdin_open: true
+    tty: true
