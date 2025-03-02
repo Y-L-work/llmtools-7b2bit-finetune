@@ -1,0 +1,3 @@
+[submodule "llmtools"]
+	path = llmtools
+	url = https://github.com/kuleshov-group/llmtools.git
