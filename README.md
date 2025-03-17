@@ -47,7 +47,7 @@
 | 🔥 **深度學習** | ![PyTorch](https://img.shields.io/badge/PyTorch-2.1.1-red?style=for-the-badge&logo=pytorch) ![CUDA](https://img.shields.io/badge/CUDA-12.1-green?style=for-the-badge) |
 | 📚 **模型下載** | ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD700?style=for-the-badge&logo=huggingface&logoColor=black) |
 | 🚢 **容器化部署** | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) |
-| 📝 **數據集** | ![Alpaca](https://img.shields.io/badge/Alpaca-Dataset-lightblue?style=for-the-badge) |
+| 📝 **資料集** | ![Alpaca](https://img.shields.io/badge/Alpaca-Dataset-lightblue?style=for-the-badge) |
 
 ---
 
@@ -58,10 +58,10 @@ llmtools-7b2bit-finetune/
 ├── src/
 │   ├── train.py             # 主要微調腳本
 │   ├── download_model.py    # 下載 2-bit 量化模型
-│   ├── preprocess_data.py   # 數據預處理
+│   ├── preprocess_data.py   # 資料預處理
 │   ├── config.py            # 設定微調參數
 ├── data/
-│   ├── alpaca.json          # 訓練數據
+│   ├── alpaca.json          # 訓練資料
 ├── output/                  # 保存微調後的模型
 ├── requirements.txt         # 依賴安裝
 ├── run.sh                   # 快速運行腳本
@@ -105,7 +105,7 @@ docker-compose up --build
 
 ✅ **環境與依賴安裝**  
 ✅ **下載 LLaMA-7B 2-bit 量化模型**  
-✅ **數據預處理 (Alpaca Dataset)**  
+✅ **資料預處理 (Alpaca Dataset)**  
 ✅ **基本微調腳本 (`train.py`) 建立**  
 ⏳ **測試 2-bit 微調過程**  
 ⏳ **模型訓練與效果驗證**  
