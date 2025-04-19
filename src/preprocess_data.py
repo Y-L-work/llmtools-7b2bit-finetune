@@ -8,4 +8,4 @@ DATA_PATH = "data/alpaca.json"
 dataset = load_dataset("tatsu-lab/alpaca")
 dataset["train"].to_json(DATA_PATH, orient="records")
 
-print(f"✅ 訓練數據已下載並存入 {DATA_PATH}")
+print(f"訓練數據已下載並存入 {DATA_PATH}")
