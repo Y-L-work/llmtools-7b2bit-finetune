@@ -15,4 +15,4 @@ llm, quip_config = AutoLLMForCausalLM.from_pretrained(
     device_map="auto",
     cache_dir=MODEL_PATH  # 確保下載的模型存入 D 槽
 )
-print(f"模型下載完成，存放於 {MODEL_PATH}！")
+print(f"模型下載完成，存放於 {MODEL_PATH}")
