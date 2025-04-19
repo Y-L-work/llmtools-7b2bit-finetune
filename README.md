@@ -43,11 +43,11 @@
 
 | 類別 | 🛠️ 工具 & 技術 |
 |--------|----------------------|
-| 🧠 **LLM 微調** | ![LLMTools](https://img.shields.io/badge/LLMTools-2bit-blue?style=for-the-badge&logo=ai) ![LoRA](https://img.shields.io/badge/LoRA-Optimization-orange?style=for-the-badge) |
-| 🔥 **深度學習** | ![PyTorch](https://img.shields.io/badge/PyTorch-2.1.1-red?style=for-the-badge&logo=pytorch) ![CUDA](https://img.shields.io/badge/CUDA-12.1-green?style=for-the-badge) |
-| 📚 **模型下載** | ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD700?style=for-the-badge&logo=huggingface&logoColor=black) |
-| 🚢 **容器化部署** | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) |
-| 📝 **資料集** | ![Alpaca](https://img.shields.io/badge/Alpaca-Dataset-lightblue?style=for-the-badge) |
+|- **LLM 微調** | ![LLMTools](https://img.shields.io/badge/LLMTools-2bit-blue?style=for-the-badge&logo=ai) ![LoRA](https://img.shields.io/badge/LoRA-Optimization-orange?style=for-the-badge) |
+|- **深度學習** | ![PyTorch](https://img.shields.io/badge/PyTorch-2.1.1-red?style=for-the-badge&logo=pytorch) ![CUDA](https://img.shields.io/badge/CUDA-12.1-green?style=for-the-badge) |
+|- **模型下載** | ![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD700?style=for-the-badge&logo=huggingface&logoColor=black) |
+|- **容器化部署** | ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white) |
+|- **資料集** | ![Alpaca](https://img.shields.io/badge/Alpaca-Dataset-lightblue?style=for-the-badge) |
 
 ---
 
@@ -89,12 +89,12 @@ python src/download_model.py
 
 ### 3️⃣ 運行微調
 
-✅ **方式 1：直接執行 Python 腳本**
+**方式 1：直接執行 Python 腳本**
 ```bash
 python src/train.py
 ```
 
-✅ **方式 2：使用 Docker 運行**
+**方式 2：使用 Docker 運行**
 ```bash
 docker-compose up --build
 ```
@@ -103,13 +103,14 @@ docker-compose up --build
 
 ##  目前專案進度
 
-✅ **環境與依賴安裝**  
-✅ **下載 LLaMA-7B 2-bit 量化模型**  
-✅ **資料預處理 (Alpaca Dataset)**  
-✅ **基本微調腳本 (`train.py`) 建立**  
-⏳ **測試 2-bit 微調過程**  
-⏳ **模型訓練與效果驗證**  
-⏳ **微調後模型的推理測試**  
+**環境與依賴安裝**  
+- **下載 LLaMA-7B 2-bit 量化模型**  
+- **資料預處理 (Alpaca Dataset)**  
+- **基本微調腳本 (`train.py`) 建立**
+##  正在進行當中
+- **測試 2-bit 微調過程**  
+- **模型訓練與效果驗證**  
+- **微調後模型的推理測試**  
 
 **計畫中的改進方向：**
 - 🔹 **調整 LoRA 超參數，優化微調效果**
@@ -118,7 +119,7 @@ docker-compose up --build
 
 ---
 
-## 📊 GitHub 活動
+## GitHub 活動
 
 ![GitHub Activity](https://github-readme-activity-graph.vercel.app/graph?username=Y-L-work&theme=react-dark)
 
